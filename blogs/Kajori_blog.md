@@ -17,41 +17,37 @@ As such, it is a relatively simple probabilistic classification model that makes
 ### Code:
 
 Let’s see how we could go about implementing Linear Discriminant Analysis from scratch using Python. To start, import the following libraries.
-
-* from sklearn.datasets import load_wine
-* import pandas as pd
-* import numpy as np
-* np.set_printoptions(precision=4)
-* from matplotlib import pyplot as plt
-* import seaborn as sns
-* sns.set()
-* from sklearn.preprocessing import LabelEncoder
-* from sklearn.tree import DecisionTreeClassifier
-* from sklearn.model_selection import train_test_split
-* from sklearn.metrics import confusion_matrix
-
+```
+ from sklearn.datasets import load_wine
+ import pandas as pd
+ import numpy as np
+ np.set_printoptions(precision=4)
+ from matplotlib import pyplot as plt
+ import seaborn as sns
+ sns.set()
+ from sklearn.preprocessing import LabelEncoder
+ from sklearn.tree import DecisionTreeClassifier
+ from sklearn.model_selection import train_test_split
+ from sklearn.metrics import confusion_matrix
+```
 ### For eg,we’ll be working with the wine dataset which can be obtained from the UCI machine learning repository. Fortunately, the scitkit-learn library provides a wrapper function for downloading and
-
-* wine = load_wine()X = pd.DataFrame(wine.data, columns=wine.feature_names)
-* y = pd.Categorical.from_codes(wine.target, wine.target_names)
-
+```
+ wine = load_wine()X = pd.DataFrame(wine.data, columns=wine.feature_names)
+ y = pd.Categorical.from_codes(wine.target, wine.target_names)
+```
 ### The dataset contains 178 rows of 13 columns each.
-
-* X.shape
-
+```
+ X.shape
+```
 
 
 
 ### The features are composed of various characteristics such as the magnesium and alcohol content of the wine.
-
-* X.head() 
-
-
-
+```
+ X.head() 
+```
 
 
-## Table of Content
 
-| Topic Name | Contributor |
-| :-- | :-- |
-| [GitHub Linear Discriminant Analysis With Python blog](GitHub-Kajori_blog.md) | [Kajori Ghosh](https://www.github.com/Kajori4) |
+
+
