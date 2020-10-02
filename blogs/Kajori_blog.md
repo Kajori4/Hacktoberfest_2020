@@ -41,6 +41,7 @@ Let’s see how we could go about implementing Linear Discriminant Analysis from
 
 
 
+
 ### The features are composed of various characteristics such as the magnesium and alcohol content of the wine.
 
 * X.head()

@@ -10,6 +10,6 @@
   <a href="https://www.linkedin.com/in/kajorig/"><img height="50" src="img/linkedin.png?raw=true"></a>&nbsp;&nbsp;
   <a href="https://medium.com/@kajori2000"><img height="50" src="img/medium.png?raw=true"></a>&nbsp;&nbsp;
   <a href="https://twitter.com/Kajori_04"><img height="50" src="img/twitter.png?raw=true"></a>&nbsp;&nbsp;
- 
+
 </p>
 </p>
